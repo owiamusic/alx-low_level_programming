@@ -1,2 +1,6 @@
 #!/bin/bash
-puts("Programming is like building a multilingual puzzle)
+int main(){
+    char word[]= "Programming is like building a multilingual puzzle";
+    puts(word);
+    return 0;
+    }
