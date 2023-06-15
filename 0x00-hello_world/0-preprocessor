@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -o main.c $CFILE
+cpp "$CFILE" > c
