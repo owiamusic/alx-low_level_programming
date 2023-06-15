@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main(void) - The program prints the text with a new line
- * return - The program ends with a return value of (0)
+ * main - Print a text exactly followed by a new line
+ * Return: 0 at the end of the program
 */
 int main(void)
 {
