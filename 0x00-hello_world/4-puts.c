@@ -2,12 +2,11 @@
 /**
  * main - a program that prints using puts
  *
- * return value - 0 (success)
+ * return - 0 the program is working (success)
 */
 
-int main()
+int main(void)
 {
-    puts('Programming is like building a multilingual puzzle');
-
-    return 0;
+	int puts(Programming is like building a multilingual puzzle);
+	return 0;
 }
