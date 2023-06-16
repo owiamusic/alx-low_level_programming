@@ -9,10 +9,10 @@ int main(void)
 {
 	char alpha = 'a';
 
-	while
+	while {
 		(alpha <= 'z');
 	putchar('\n');
-
+	}
 	return (0);
 
 }
