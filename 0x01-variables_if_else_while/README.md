@@ -9,3 +9,7 @@
 4-print-alphabts - Print alphabet in lowercase with some characters
 
 5-print_numbers - Print numbers in base 10 starting with 0
+
+6-print_numbers - Prints numbers in base 10 without char
+
+7-print_tebahpla - Prints lowercase alphabets in reverse
