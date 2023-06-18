@@ -8,7 +8,7 @@
 int main(void)
 {
 	int base16;
-	
+
 	for (base16 = 0; base16 <= 15; base16++)
 	{
 		if (base16 < 10)
