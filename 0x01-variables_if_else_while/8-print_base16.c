@@ -8,12 +8,11 @@
 int main(void)
 {
 	int base16;
-	
 	for (base16 = 0; base16 <= 15; base16++)
 	{
 		if (base16 < 10)
 		{
-			putchar('0'+ base16);
+			putchar('0' + base16);
 		}
 		else
 		{
@@ -21,6 +20,6 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
