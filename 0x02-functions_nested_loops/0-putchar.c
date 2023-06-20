@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * main - starting point of program
@@ -10,8 +9,8 @@ int main(void)
 
 {
 	char n[] = "_putchar";
+	putchar("%s\n", n);
 
-		putchar("%s\n", n);
+	return (0);
+
 }
-
-return (0);
