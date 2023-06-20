@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-#include "_putchar.c"
 
 /**
  * main - starting point of program
@@ -9,7 +7,6 @@
 
 int main(void)
 #include "main.h"
-#include "_putchar.c"
 
 {
 	char n[] = "_putchar";
