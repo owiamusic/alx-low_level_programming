@@ -2,6 +2,7 @@
 
 /**
  * main - start point of program
+ * @print_alphabet - print lowercase alphabet
  * Return: 0 at end of program
  */
 
