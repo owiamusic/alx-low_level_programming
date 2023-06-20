@@ -7,12 +7,12 @@
 
 void print_alphabet(void)
 {
-	int alpha= 97;
-	for (; alpha <= 122; alpha++);
+	int alpha;
+
+	for (alpha = 97; alpha <= 122; alpha++);
 	{
 		_putchar(alpha);
 	}
 	_putchar('\n');
 	
-	return (0);
 }
