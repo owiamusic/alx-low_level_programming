@@ -8,6 +8,9 @@
  */
 
 int main(void)
+#include "main.h"
+#include "_putchar.c"
+
 {
 	char n[] = "_putchar";
 
