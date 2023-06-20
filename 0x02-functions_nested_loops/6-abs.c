@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * _abs- print the abosulte value of an integer
+ * _abs - print the absolute  value of an integer
+ * @n: is the absolute integer
  */
 
 int _abs(int n)
@@ -12,6 +13,6 @@ int _abs(int n)
 	}
 	else
 	{
-		return (0);
+		return (n * -1);
 	}
 }
