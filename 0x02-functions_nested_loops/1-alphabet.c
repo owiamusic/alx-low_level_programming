@@ -5,9 +5,14 @@
  * Return: 0 at end of program
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet(void);
-
+	char alpha;
+	for (alpha = 'a'; alpha <= 'z'; alpha++);
+	{
+		putchar("%s", alpha);
+	}
+	putchar('\n');
+	
 	return (0);
 }
