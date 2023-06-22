@@ -9,13 +9,17 @@ void more_numbers(void)
 {
 	int n;
 	int m;
-	
-	for (n = 0; n < 14; n++)
+
+	for (h = 0; h <= 9; h++)
 	{
-		for (m = 0; m < 10; m++)
+		for (i = 0; i <= 14; i++)
+		{
+			if (i > 9)
 			{
-			_putchar(m);
+				_putchar(i / 10 + '0');
 			}
+			_putchar(i % 10 + '0');
+		}
 		_putchar('\n');
 	}
 }
