@@ -1,0 +1,1 @@
+0-isupper - Check for uppercase letters
