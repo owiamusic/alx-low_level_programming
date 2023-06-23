@@ -13,7 +13,6 @@ void print_square(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
-
 	}
 	else
 	{
@@ -24,5 +23,6 @@ void print_square(int size)
 			_putchar('#');
 		}
 		_putchar('\n');
+	}
 	}
 }
