@@ -8,13 +8,11 @@
 
 void print_line(int n)
 {
-		if (n > 0)
+	int m;
+	
+	for (m = 0; m < n; m++)
 		{
 			_putchar('_');
-			n++;
 		}
-		else if (n <= 0)
-		{
 		_putchar('\n');
-		}
 }
