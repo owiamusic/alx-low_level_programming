@@ -13,6 +13,6 @@ void puts2(char *str)
 	{
 		_putchar(str[l]);
 		l += 2;
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
