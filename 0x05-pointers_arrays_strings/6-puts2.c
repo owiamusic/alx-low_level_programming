@@ -1,4 +1,5 @@
 #include "main.h"
+#include "2-strlen.c"
 
 /**
  * puts2 - print character of a string, first characters
@@ -7,17 +8,11 @@
 
 void puts2(char *str)
 {
-	int l;
-	int j;
-		
-	while (l != '\0')
-	{
-		l++;
-	}
+	int i;
 
-	for (j = 0; j < l(str); j++)
+	for (i = 0; i < strlen(str); i++)
 	{
-		_putchar(str[j]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
