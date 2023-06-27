@@ -2,10 +2,18 @@
 
 /**
  * _puts - prints a string with newline
+ * @str: pointer
  * Return: string
  */
 
 void _puts(char *str)
 {
-	_putchar("%s\n", str);
+	int a = 0;
+
+	while (str[a] != '\0')
+	{
+		_putchar(str[a]);
+		a++;
+	}
+	_putchar('\n');
 }
