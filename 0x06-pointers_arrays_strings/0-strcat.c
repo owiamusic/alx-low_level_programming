@@ -2,15 +2,15 @@
 
 /**
  * _strcat - concatenate two strings
- * @dest - points to first string
- * @ src - the second string to be appended
+ * @dest: points to first string
+ * @src: the second string to be appended
  * Return: temp pointer
  */
 
 char *_strcat(char *dest, char *src)
 {
 	char *cat = dest;
-	
+
 	while (*dest != '\0')
 	{
 		dest++;
@@ -24,6 +24,6 @@ char *_strcat(char *dest, char *src)
 	}
 
 	*dest = '\0';
-	
-	return cat;
+
+	return (cat);
 }
