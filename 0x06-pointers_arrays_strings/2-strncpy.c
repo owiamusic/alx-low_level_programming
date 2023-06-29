@@ -5,13 +5,14 @@
  * @dest: points to first string
  * @src: the second string to be appended
  * @n: the number of string characters
+ * Return: string appended
  */
 
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
-	
-       	for (i = 0; i < n && src[i] != '\0'; i++)
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
