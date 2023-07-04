@@ -2,9 +2,9 @@
 
 /**
  * _memset - fills memory with constant byte
- * @s - array to set
- * @b - constant byte
- * @n - number of times
+ * @s: array to set
+ * @b: constant byte
+ * @n: number of times
  * Return: s at end of program
  */
 
@@ -16,5 +16,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[a] = b;
 	}
-	return(s);
+	return (s);
 }
