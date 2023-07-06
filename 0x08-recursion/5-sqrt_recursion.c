@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
 
 /**
  * sqrt_recur - calculate square root
- * @n - number to compare
+ * @n: number to compare
  * @guess: number guess
  * Return: a value for recursion
  */
