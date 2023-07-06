@@ -2,7 +2,6 @@
 
 /**
  * _sqrt_recursion - funtion to return square root of a number
- * sqrt_recur - function to calculate square root
  * @n: the number
  * Return: value of square root
  */
@@ -19,6 +18,10 @@ int _sqrt_recursion(int n)
 	}
 	return (sqrt_recur(n, 1));
 }
+
+/**
+ * sqrt_recur - calculate square root
+ */
 
 int sqrt_recur(int n, int guess)
 {
