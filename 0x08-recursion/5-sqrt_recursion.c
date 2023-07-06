@@ -2,6 +2,7 @@
 
 /**
  * _sqrt_recursion - funtion to return square root of a number
+ * sqrt_recur - function to calculate square root
  * @n: the number
  * Return: value of square root
  */
