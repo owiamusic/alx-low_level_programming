@@ -5,7 +5,7 @@
  * main - print all arguments entered
  * @argc: argument count
  * @argv: argument vector
- * Return: 0 as success
+ * Return: end of program
  */
 
 int main(int argc, char *argv[])
@@ -16,5 +16,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s \n", argv[i]);
 	}
-		return(0);
+	return (0);
 }
