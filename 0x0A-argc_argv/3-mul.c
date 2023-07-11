@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int arg0 = atoi(argv[1]);
 	int arg1 = atoi(argv[2]);
 
-	if (argc != 3 || argv[2] == NULL)
+	if (argc == 3)
 	{
 		printf("%d\n", (arg0 * arg1));
 		return (0);
