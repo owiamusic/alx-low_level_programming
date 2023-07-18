@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int arg0;
 	int arg1;
-	
+
 	if (argc == 3)
 	{
 		arg0 = atoi(argv[1]);
@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", (arg0 * arg1));
 		return (0);
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
