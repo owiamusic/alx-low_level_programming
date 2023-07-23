@@ -28,7 +28,7 @@ int prime(int i, int n)
 
 int is_prime_number(int n)
 {
-	int i = 2
+	int i = 2;
 
 	if (n < 2)
 	{
