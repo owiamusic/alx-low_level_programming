@@ -14,10 +14,10 @@ int prime(int i, int n)
 		return (0);
 	}
 	if (n % i != 0 && i < n)
-		return (prime(i + 1, n));
 	{
-		return (1);
+		return (prime(i + 1, n));
 	}
+		return (1);
 }
 
 /**
