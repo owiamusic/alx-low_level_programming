@@ -8,13 +8,14 @@
 
 int strlength(char *s)
 {
-	int length = 0;
+	int i = 0;
 
-	while (s[length] != '\0')
+	if (*s)
 	{
-		length++;
+		i = i + strlength(s + 1);
+		return (i += 1);
 	}
-	return (length);
+	return (0);
 }
 
 /**
