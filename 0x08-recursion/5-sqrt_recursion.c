@@ -19,7 +19,7 @@ int help(int i, int n)
 			return (-1);
 		}
 		j = help(i + 1, n);
-		return (j +1);
+		return (j + 1);
 	}
 	return (0);
 }
