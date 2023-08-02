@@ -2,8 +2,9 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - print the length of a string
+ * _strlen_recursion - Calculate length of a string
  * @s: string to be compared
+ * Return: the length of the string
  */
 
 int _strlen_recursion(char *s)
