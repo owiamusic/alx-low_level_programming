@@ -2,6 +2,25 @@
 #include "main.h"
 
 /**
+ * len - Length of a string
+ * @s: string to compare
+ * Return: Length of string
+ */
+
+int len(char *s)
+{
+	int i = 0;
+
+	if (s[i] != '\0')
+	{
+		i = len(s + 1);
+		return (i += 1);
+	}
+	return (0);
+}
+
+
+/**
  * help - String helper
  * @i: integer
  * @s: string to compare
@@ -12,7 +31,7 @@ int help(int i, char *s)
 {
 	if (*s)
 	{
-		if (*s != s[_strlen_recursion(s) - i])
+		if (*s != s[len(s) - i])
 		{
 			return (0);
 		}
