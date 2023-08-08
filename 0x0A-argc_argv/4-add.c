@@ -1,7 +1,6 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <ctype.h>
 /**
  * isString - checks for a string
  * @s: string to check
