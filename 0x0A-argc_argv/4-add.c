@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+
 /**
  * isString - checks for a string
  * @s: string to check
  * Return: boolean
  */
+
 int isString(char *s)
 {
 	int i;
-
+	
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (!isdigit(s[i]))
@@ -30,15 +32,15 @@ int isString(char *s)
 int main(int argc, char  *argv[])
 {
 	int i;
-	int result = 0;
-
+	int sum = 0;
+	
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
 			if (isString(argv[i]))
 			{
-				result += atoi(argv[i]);
+			       sum += atoi(argv[i]);
 			}
 			else
 			{
