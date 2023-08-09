@@ -17,22 +17,23 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	newInt = (int **) malloc(sizeof(int) * height);
+	newInt = (int **) malloc(sizeof(int *) * height);
 
 	if (newInt == NULL)
 		return (NULL);
 
 	for (i = 0; i < height; i++)
 	{
-		newInt[i] = (int *)malloc(sizeof(int) * width);
-	if (newInt[i] == NULL)
-	{
-		for (j = 0; j < width; j++)
+		newInt[i] = (int *)malloc(sizeof(int *) * width);
+		if (newInt[i] == NULL)
 		{
-			free(newInt[j]);
+			for (j = 0; j < i; j++)
+			{
+				free(newInt[j]);
+			}
+			free(newInt);
+			return (NULL);
 		}
-		free(newInt);
-	}
 	}
 	for (i = 0; i < height; i++)
 		for (j = 0; j < width; j++)
