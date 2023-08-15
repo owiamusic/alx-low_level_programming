@@ -3,9 +3,9 @@
 
 /**
   * struct dog - type containing elements
-  * name: name of dog
-  * age: age of dog
-  * owner: owner of dog
+  * @name: name of dog
+  * @age: age of dog
+  * @owner: owner of dog
   */
 
 struct dog
