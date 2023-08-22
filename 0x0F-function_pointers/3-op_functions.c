@@ -2,11 +2,11 @@
 #include "3-calc.h"
 
 /**
-  * op_add - Adds an return the sum of a and b
-  * @a: integer a
-  * @b: integer b
-  * Return: value
-  */
+ * op_add - Adds an return the sum of a and b
+ * @a: integer a
+ * @b: integer b
+ * Return: value
+ */
 
 int op_add(int a, int b)
 {
@@ -14,11 +14,11 @@ int op_add(int a, int b)
 }
 
 /**
-  * op_sub - Substracts and return value
-  * @a: integer a
-  * @b: integer b
-  * Return: value
-  */
+ * op_sub - Substracts and return value
+ * @a: integer a
+ * @b: integer b
+ * Return: value
+ */
 
 int op_sub(int a, int b)
 {
@@ -38,25 +38,33 @@ int op_mul(int a, int b)
 }
 
 /**
-  * op_div - Divide and return value
-  * @a: integer a
-  * @b: integer b
-  * Return: value
-  */
+ * op_div - Divide and return value
+ * @a: integer a
+ * @b: integer b
+ * Return: value
+ */
 
 int op_div(int a, int b)
 {
-	return (a / b);
+	if (b != 0)
+		return (a / b);
+
+	printf("Error\n");
+	exit(100);
 }
 
 /**
-  * op_mod - Return remainder of division
-  * @a: integer a
-  * @b: integer b
-  * Return: value
-  */
+ * op_mod - Return remainder of division
+ * @a: integer a
+ * @b: integer b
+ * Return: value
+ */
 
 int op_mod(int a, int b)
 {
-	return (a % b);
+	if (b != 0)
+		return (a % b);
+
+	printf("Error\n");
+	exit(100);
 }
