@@ -1,12 +1,13 @@
-#include <lists.h>
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "lists.h"
 /**
  * add_node_end - adds node at end
  * @head: head
  * @str: string to add
  * Return: address
  */
-
 list_t *add_node_end(list_t **head, const char *str)
 {
 	int i = 0;
